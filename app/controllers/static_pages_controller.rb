@@ -7,4 +7,7 @@ class StaticPagesController < ApplicationController
 
   def living
   end
+
+  def fun
+  end
 end

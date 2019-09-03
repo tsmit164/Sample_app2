@@ -15,5 +15,9 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     get static_pages_living_url
     assert_response :success
   end
-
+  
+  test "should get fun" do
+    get static_pages_fun_url
+    assert_response :success
+  end
 end
